@@ -1,0 +1,47 @@
+header{
+    border: 1px solid goldenrod;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+section a{
+    color: purple;
+}
+
+section a .disabled{
+    color: purple;
+}
+
+.month-list ul li:last-child a{
+    color: purple;
+}
+
+.disabled{
+    color: gray;
+
+}
+
+.active{
+    color: yellow;
+}
+
+div div div div:first-child{
+    color: red;
+}
+
+div div div div{
+    color: blue;
+}
+
+.parent h4:nth-child(2){
+    background-color: red;
+}
+
+.parent h4:last-child{
+    background-color: blue;
+}
+
